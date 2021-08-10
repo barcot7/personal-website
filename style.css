@@ -11,6 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     line-height: 1.5;
+    background: #E5E5E5;
 }
 .fullwidth {
     display: block;
@@ -67,4 +68,81 @@ h1 {
 }
 .cv-img {
     padding-right: 15px;
+}
+.work h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #363958;
+    margin-bottom: 50px;
+}
+.namehighlight{
+	color: #FF8367;
+}
+.singleWorkingProject {
+    width: 25%;
+    padding: 2%;
+    margin: 2%;
+    float: left;
+    background: white;
+}
+.singleWorkingProject h3 {
+	font-size: 23px;
+	color: #363958;
+	margin: 10px 0;
+}
+.singleWorkingProject p{
+    color: #6C6C6C;
+}
+.fullwidth.inquery {
+	padding: 150px 0;
+}
+.inquery {
+    border-radius: 17px;
+    max-width: 700px;
+    clear: both;
+    height: 150px;
+    background: url("images/inquerybg.png");
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.inquery-content {
+	padding: 50px;
+	margin-top: -17px;
+}
+ .inquery-content h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: 9px;
+}
+.inquery h1 {
+    float: left;
+}
+.inquery a {
+    float: right;
+}
+footer {
+    text-align: center;
+}
+footer h2 {
+    color: #696871;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+footer h3 {
+    color: #363958;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 12px;
+}
+footer img {
+    width: 34px;
+    margin: 0 12px;
+    padding-top: 20px;
 }
